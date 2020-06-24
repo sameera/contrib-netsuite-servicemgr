@@ -26,9 +26,9 @@
     <RootNamespace>SuiteTalk</RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.ServiceModel.duplex" Version="4.5.3" />
-    <PackageReference Include="System.ServiceModel.http" Version="4.5.3" />
-    <PackageReference Include="System.ServiceModel.nettcp" Version="4.5.3" />
-    <PackageReference Include="System.ServiceModel.security" Version="4.5.3" />
+    <PackageReference Include="System.ServiceModel.duplex" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.http" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.nettcp" Version="4.7.0" />
+    <PackageReference Include="System.ServiceModel.security" Version="4.7.0" />
   </ItemGroup>
 </Project>

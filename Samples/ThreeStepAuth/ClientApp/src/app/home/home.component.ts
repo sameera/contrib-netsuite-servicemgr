@@ -30,7 +30,7 @@ export class HomeComponent {
                     sessionStorage.setItem("celigo_oauth_token_secret", response.tokenSecret);
                     sessionStorage.setItem("celigo_account", account);
 
-                    window.location.href = `https://${account}.app.netsuite.com/app/login/secure/authorizetoken.nl?oauth_token=${response.token}`;
+                    window.location.href = `https://${account}.app.netsuite.com/app/login/secure/authorizetoken.nl?oauth_token=${response.token}&state=11223344556677`;
                 },
                 error => {
                     console.error(error);
